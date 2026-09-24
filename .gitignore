@@ -2,30 +2,26 @@
 __pycache__/
 *.py[cod]
 *.pyo
-*.pyd
 
 # Virtual environments
 venv/
 .venv/
 env/
 
-# IDE
-.idea/
-.vscode/
-
-# Trained models
-*.h5
-*.keras
-*.pth
-*.pt
-
-# Dataset
-model/DATASET/
-test_data/
-
 # Jupyter
 .ipynb_checkpoints/
 
-# OS
+# Datasets
+model/DATASET/
+test_data/
+
+# Generated files
+*.log
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/
